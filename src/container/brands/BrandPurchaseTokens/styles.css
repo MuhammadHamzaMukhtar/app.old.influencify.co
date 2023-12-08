@@ -1,0 +1,8 @@
+.pricing-screen .list-panel{
+    border-radius: 100px;
+    box-shadow: 0 0px 60px #d6d6d6ba;
+}
+.pricing-screen .list-panel:hover{
+    border-radius: 100px;
+    box-shadow: 0 0px 60px #d6d6d6ba;
+}

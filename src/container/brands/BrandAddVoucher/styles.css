@@ -1,0 +1,37 @@
+.voucher-range-slider .MuiSlider-thumb > span > span {
+	background: var(--purple);
+}
+.voucher-range-slider .MuiSlider-thumb,
+.voucher-range-slider .MuiSlider-track,
+.voucher-range-slider .PrivateValueLabel-circle-4 {
+	background-color: var(--purple);
+}
+
+.voucher-range-slider .MuiSlider-rail,
+.voucher-range-slider .MuiSlider-track {
+	height: 3px;
+}
+
+.voucher-switch .Mui-checked + .MuiSwitch-track {
+	background-color: var(--purple);
+}
+.voucher-switch .Mui-checked .MuiIconButton-label .MuiSwitch-thumb {
+	color: var(--purple);
+}
+.voucher-switch .MuiIconButton-label .MuiSwitch-thumb {
+	color: #fff;
+}
+
+.fileContainer {
+	box-shadow: none;
+}
+
+.fileContainer .deleteImage {
+	background: var(--purple);
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	display: flex;
+	height: 25px;
+	width: 25px;
+}

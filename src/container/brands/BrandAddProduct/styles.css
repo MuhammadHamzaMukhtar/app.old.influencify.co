@@ -1,0 +1,17 @@
+.add-product .ql-container.ql-snow {
+	border-bottom: 1px solid #ccc !important;
+}
+
+.fileContainer {
+	box-shadow: none;
+}
+
+.fileContainer .deleteImage {
+	background: var(--purple);
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	display: flex;
+	height: 25px;
+	width: 25px;
+}

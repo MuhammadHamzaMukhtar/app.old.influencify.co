@@ -1,0 +1,12 @@
+.infl-slick-carousel.story-mention .slick-prev,
+.infl-slick-carousel.story-mention .slick-next {
+	top: 40%;
+	width: 32px;
+	height: 32px;
+}
+.infl-slick-carousel.story-mention .slick-prev {
+	left: -8px;
+}
+.infl-slick-carousel.story-mention .slick-next {
+	right: -8px;
+}

@@ -1,0 +1,15 @@
+.group:checked + .group-checked\:bg-\[\#7c3292\] {
+	background-color: #7c3292;
+}
+
+.post-type .nav-pills .nav-item .nav-link.active,
+.post-type .nav-pills .nav-item .nav-link.active:hover,
+.post-type .nav-pills .nav-item .nav-link:active {
+	background-color: var(--purple);
+	color: #fff;
+	opacity: 1;
+}
+
+.post-type .nav-pills .nav-item .nav-link.active svg {
+	color: #fff;
+}

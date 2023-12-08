@@ -1,0 +1,12 @@
+.infl-slick-carousel.top-influencers .slick-prev,
+.infl-slick-carousel.top-influencers .slick-next {
+	top: 40%;
+	width: 32px;
+	height: 32px;
+}
+.infl-slick-carousel.top-influencers .slick-prev {
+	left: -8px;
+}
+.infl-slick-carousel.top-influencers .slick-next {
+	right: -8px;
+}

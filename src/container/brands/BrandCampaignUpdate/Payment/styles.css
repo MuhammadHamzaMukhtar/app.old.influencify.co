@@ -1,0 +1,7 @@
+.payment-tabs .nav-pills .nav-link.active {
+	background: var(--purple);
+	color: #fff;
+}
+.payment-tabs .nav-pills .nav-link.active svg {
+	fill: #fff;
+}

@@ -1,0 +1,9 @@
+.plaformDropdown .avatar {
+	font-size: 10px;
+}
+.plaformDropdown .divider.text {
+	line-height: 10px;
+}
+.plaformDropdown .dropdown.icon {
+	top: 10px !important;
+}

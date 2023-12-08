@@ -1,0 +1,7 @@
+.rate-histogram__hidden-line:hover + .rate-histogram__tooltip {
+	display: block;
+}
+
+.rate-histogram__item:hover > .rate-histogram__visible-line {
+	background-color: #ddd !important;
+}

@@ -1,0 +1,17 @@
+.list-icon {
+	width: 18px;
+}
+
+.influencer-list {
+	position: absolute;
+	right: 5px;
+	z-index: 2;
+	bottom: 16px;
+}
+.dropdown-input-full input {
+	height: 100%;
+}
+
+.dropdown-input-full .text {
+	top: 13px;
+}

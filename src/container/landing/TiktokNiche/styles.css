@@ -1,0 +1,10 @@
+.list-icon {
+    width: 18px;
+}
+
+.influencer-list {
+    position: absolute;
+    right: 5px;
+    z-index: 2;
+    bottom: 16px;
+}

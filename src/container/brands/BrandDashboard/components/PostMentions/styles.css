@@ -1,0 +1,26 @@
+.equal-height .slick-slide > div {
+	height: 100%;
+}
+.equal-height .slick-track,
+.equal-height .slick-list {
+	display: flex;
+}
+
+.equal-height video,
+.equal-height .card-img-top,
+.equal-height .card-link {
+	min-height: 190px;
+	object-fit: contain;
+}
+.infl-slick-carousel.post-mention .slick-prev,
+.infl-slick-carousel.post-mention .slick-next {
+	top: 40%;
+	width: 32px;
+	height: 32px;
+}
+.infl-slick-carousel.post-mention .slick-prev {
+	left: -8px;
+}
+.infl-slick-carousel.post-mention .slick-next {
+	right: -8px;
+}

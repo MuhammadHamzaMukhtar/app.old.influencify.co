@@ -1,0 +1,18 @@
+.infl-slick-carousel.popularArrows .slick-prev,
+.infl-slick-carousel.popularArrows .slick-next {
+	top: 40%;
+	width: 32px;
+	height: 32px;
+}
+.infl-slick-carousel.popularArrows .slick-prev {
+	left: -8px;
+}
+.infl-slick-carousel.popularArrows .slick-next {
+	right: -8px;
+}
+.infl-slick-carousel.popularArrows .slick-dots li button:before {
+	font-size: 11px;
+}
+.infl-slick-carousel.popularArrows .slick-dots {
+	bottom: -50px;
+}

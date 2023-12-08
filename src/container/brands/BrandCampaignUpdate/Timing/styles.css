@@ -1,0 +1,15 @@
+.timing-tab label + .MuiInput-formControl {
+    height: 2.75rem;
+    padding: 0.4rem 0.75rem 0.2rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    align-items: center;
+}
+.timing-tab .MuiInput-underline:after {
+    content: none !important;
+}
+.timing-tab .MuiInputBase-input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}

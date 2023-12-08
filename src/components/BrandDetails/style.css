@@ -1,0 +1,28 @@
+.custom_uploader .fileContainer {
+    border-style: dashed;
+    border-width: 1px;
+    min-height: 200px;
+    padding: 0;
+    margin: 0;
+    border-color: #c4c4c4;
+    box-shadow: none;
+}
+.custom_uploader .fileContainer p,
+.custom_uploader .fileContainer .uploadIcon {
+    display: none;
+}
+.custom_uploader .fileContainer .chooseFileButton {
+    padding: 0;
+    background: transparent;
+    border-radius: 30px;
+    color: #c4c4c4;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 200px;
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+.marketing-Carousel .slick-track {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.marketing-Carousel .slick-slide {
+	padding: 0 25px;
+	height: unset;
+}
+
+.marketing-Carousel .slick-slide > div,
+.marketing-Carousel .slick-slide > div > div {
+	height: 100%;
+}
+
+.marketing-Carousel .slick-next {
+	right: 5px;
+	padding-left: 3px;
+}
+
+.marketing-Carousel .slick-prev {
+	left: 5px;
+	padding-right: 3px;
+}
+
+.marketing-Carousel .slick-dots {
+	bottom: -38px;
+}
+
+@media (max-width: 576px) {
+	.marketing-Carousel .slick-slide {
+		padding: 0;
+	}
+}

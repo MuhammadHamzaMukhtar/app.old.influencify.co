@@ -1,0 +1,50 @@
+.monitoring-compaign {
+	border: 2px solid #fff;
+}
+.monitoring-compaign.rounded--lg {
+	border-top-right-radius: 0 !important;
+}
+.monitoring-compaign .campaign-image {
+	height: 280px;
+	object-fit: cover;
+	object-position: center;
+}
+.letter-spacing-1px {
+	letter-spacing: 1px;
+}
+.download-csv {
+	border: 1px solid #616161 !important;
+}
+.download-csv button {
+	color: #616161 !important;
+}
+.top-0 {
+	top: 0;
+}
+.MonitorCampaignFilter .custom-dropdown:first-child {
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	border-left: 1px solid #ddd;
+}
+.MonitorCampaignFilter .custom-dropdown:last-child {
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.MonitorCampaignFilter .custom-dropdown {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	height: 38px;
+}
+.MonitorCampaignFilter .custom-dropdown .dropdown-toggle.nav-link {
+	padding: 0 24px;
+}
+.z-1 {
+	z-index: 1;
+}
+@media (max-width: 700px) {
+	.MonitorCampaignFilter .custom-dropdown {
+		border-left: 1px solid #ddd;
+		margin-bottom: 15px;
+	}
+}

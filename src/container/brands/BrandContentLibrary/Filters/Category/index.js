@@ -1,0 +1,74 @@
+import { Component } from "react";
+import { Transition, Listbox } from "@headlessui/react";
+import { AiFillCaretDown } from "react-icons/ai";
+
+const options = [
+	{
+		key: "0",
+		text: "Category",
+		value: "Category",
+		content: "Category",
+	},
+];
+
+class Category extends Component {
+	defaultValue = (object, value) => {
+		const txt = Object.assign(
+			{},
+			object.find((o) => o.value === value)
+		);
+		return txt.text;
+	};
+	render() {
+		return (
+			<div className="mr-6 mb-4 md:!mb-0">
+				<Listbox>
+					<div className="relative w-[14em] z-50">
+						<Listbox.Button className="relative w-full cursor-pointer rounded-lg bg-white py-2 pl-3 pr-6 text-left focus:outline-none border border-[#22242626] h-[40px]">
+							<span className="block">
+								{this.defaultValue(options, options[0].value)}
+							</span>
+							<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+								<AiFillCaretDown
+									size={12}
+									className="text-black opacity-80"
+									aria-hidden="true"
+								/>
+							</span>
+						</Listbox.Button>
+						<Transition
+							as={Fragment}
+							leave="transition ease-in duration-100"
+							leaveFrom="opacity-100"
+							leaveTo="opacity-0"
+						>
+							<Listbox.Options className="absolute max-h-60 -mt-[5px] w-full overflow-auto rounded-md bg-white py-1 text-[14px] shadow-[0_2px_3px_0_#22242626] focus:outline-none sm:text-sm z-50">
+								{options.map((sort, key) => (
+									<Listbox.Option
+										key={key}
+										className={`relative cursor-pointer select-none hover:bg-[#00000008] p-[.78571429rem_1.14285714rem] ${
+											sort.value === options[0].value ? "bg-[#00000008]" : ""
+										}`}
+										value={sort.value}
+									>
+										<span
+											className={`block ${
+												sort.value === options[0].value
+													? "purple font-semibold"
+													: "text-gray-900 font-medium"
+											}`}
+										>
+											{sort.text}
+										</span>
+									</Listbox.Option>
+								))}
+							</Listbox.Options>
+						</Transition>
+					</div>
+				</Listbox>
+			</div>
+		);
+	}
+}
+
+export default Category;

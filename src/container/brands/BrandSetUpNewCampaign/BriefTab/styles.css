@@ -1,0 +1,32 @@
+.mobile-view {
+	background-image: url("@assets/iphone.png");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	border-radius: 34px;
+}
+.influencify-btn .btn-primary {
+	background-color: #7d2d94;
+	border: 0;
+	padding: 12px 20px !important;
+}
+.ql-snow.ql-toolbar:after,
+.ql-snow .ql-toolbar:after {
+	display: none !important;
+}
+#toolbar {
+	background: #f2f2f2;
+}
+.ql-container.ql-snow {
+	border-bottom: 0 !important;
+}
+.viewBuiltIn .visible i {
+	transform: rotate(180deg);
+}
+
+.custom-quill .ql-container.ql-snow {
+	border-color: #dee2e6;
+	border-radius: 0;
+	border-top: 1px solid #dee2e6;
+}

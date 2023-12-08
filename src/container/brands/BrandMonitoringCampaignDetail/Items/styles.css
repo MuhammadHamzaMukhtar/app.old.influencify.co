@@ -1,0 +1,9 @@
+.monitoring-checkbox.Mui-checked + .monitoring-compaign {
+	border: 2px solid var(--purple);
+	border-top-right-radius: 0px !important;
+}
+.monitoring-checkbox svg {
+	fill: var(--purple) !important;
+	margin-left: -5px;
+	margin-top: -5px;
+}

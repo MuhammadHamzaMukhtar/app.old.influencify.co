@@ -1,0 +1,13 @@
+.brand-campaigns-tab-header button:after {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff' width='10' height='10'%3E%3Cpath d='M22.319,4.431,8.5,18.249a1,1,0,0,1-1.417,0L1.739,12.9a1,1,0,0,0-1.417,0h0a1,1,0,0,0,0,1.417l5.346,5.345a3.008,3.008,0,0,0,4.25,0L23.736,5.847a1,1,0,0,0,0-1.416h0A1,1,0,0,0,22.319,4.431Z'/%3E%3C/svg%3E");
+}
+
+.brand-campaigns-tab-header button.active:after {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='10' height='10' fill='%23fff'%3E%3Cpath d='M1.172,19.119A4,4,0,0,0,0,21.947V24H2.053a4,4,0,0,0,2.828-1.172L18.224,9.485,14.515,5.776Z'/%3E%3Cpath d='M23.145.855a2.622,2.622,0,0,0-3.71,0L15.929,4.362l3.709,3.709,3.507-3.506A2.622,2.622,0,0,0,23.145.855Z'/%3E%3C/svg%3E");
+}
+
+.brand-campaigns-tab-header button.active ~ button:after {
+	background-color: #e9eaec;
+	background-image: none;
+	transform: scale(1);
+}

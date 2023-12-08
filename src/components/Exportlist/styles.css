@@ -1,0 +1,25 @@
+.custom-dropdown.large .dropdown-menu {
+    min-width: 500px;
+    max-width: 500px;
+}
+.custom-dropdown.right .dropdown-menu {
+    right: 0px;
+}
+.rounded-xl {
+    border-radius: 0.75rem !important;
+}
+.export-search-result .custom-dropdown:hover {
+    background: transparent !important;
+}
+.valid-number {
+    color: red;
+}
+.btn-purple-disabled{
+    background-color: #bd86cc !important;
+    border-color: #bd86cc !important;
+}
+@media screen and (max-width: 500px){
+    .custom-dropdown.large .dropdown-menu {
+        min-width: 97vw;
+    }
+}

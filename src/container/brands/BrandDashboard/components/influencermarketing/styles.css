@@ -1,0 +1,72 @@
+.influencer-marketing .slick-list {
+	padding: 0 !important;
+}
+
+.influencer-marketing .slick-next:before,
+.influencer-marketing .slick-prev:before {
+	display: none;
+}
+.influencer-marketing .slick-prev:hover,
+.influencer-marketing .slick-next:hover {
+	background: #fff;
+}
+.influencer-marketing .slick-prev,
+.influencer-marketing .slick-next {
+	top: unset;
+	bottom: -61px;
+	background: var(--purple);
+	width: 35px;
+	height: 35px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	border: 1px solid var(--purple);
+}
+.influencer-marketing .slick-prev.slick-disabled,
+.influencer-marketing .slick-next.slick-disabled {
+	background: #fff;
+	border-color: #d5d0d0;
+}
+.influencer-marketing .slick-prev.slick-disabled svg,
+.influencer-marketing .slick-next.slick-disabled svg {
+	color: #939393;
+}
+.influencer-marketing .slick-prev svg,
+.influencer-marketing .slick-next svg {
+	color: #fff;
+}
+.influencer-marketing .slick-prev {
+	left: 11px;
+	border-radius: 4px 0 0 4px;
+}
+.influencer-marketing .slick-next {
+	left: 46px;
+	border-radius: 0 4px 4px 0;
+}
+.influencer-marketing .slick-next:hover,
+.influencer-marketing .slick-prev:hover {
+	background-color: #9f64b0;
+}
+.influencer-marketing .slick-next:hover svg,
+.influencer-marketing .slick-prev:hover svg {
+	color: #fff !important;
+}
+.influencer-marketing .slick-dots li.slick-active button:before {
+	color: var(--purple) !important;
+	opacity: 1 !important;
+}
+.influencer-marketing .slick-dots li button:before {
+	font-size: 16px;
+}
+.influencer-marketing .slick-dots {
+	bottom: -50px;
+}
+.slideCounter {
+	position: absolute;
+	bottom: -35px;
+	left: 99px;
+}
+.slideCounter p {
+	color: #9f64b0;
+}

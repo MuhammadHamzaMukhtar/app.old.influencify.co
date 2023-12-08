@@ -1,0 +1,9 @@
+.profile .fileContainer .uploadPictureContainer {
+	width: unset;
+}
+.profile .fileContainer .uploadPictureContainer img.uploadPicture {
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	object-position: cover;
+}

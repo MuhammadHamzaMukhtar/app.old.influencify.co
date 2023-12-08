@@ -1,0 +1,39 @@
+@media screen and (min-width: 1280px) {
+	#user-profile-popUp {
+		width: 75%;
+		left: auto !important;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#user-profile-popUp {
+		width: 60%;
+		left: auto !important;
+	}
+}
+
+#user-profile-popUp .MuiBackdrop-root {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#user-profile-popUp .user-profile-page {
+	background-color: #fff;
+	margin: auto 5%;
+}
+
+#user-profile-popUp
+	.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeStart {
+	position: fixed;
+	right: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+
+#user-profile-popUp .MuiPaper-root {
+	background-color: #fff;
+}
+
+#user-profile-popUp .profile_scrollTopBtn {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}

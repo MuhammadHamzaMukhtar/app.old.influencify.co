@@ -1,0 +1,17 @@
+.infl-slick-carousel.connect-type .slick-prev {
+	left: -10px;
+}
+.infl-slick-carousel.connect-type .slick-next {
+	right: -10px;
+}
+.infl-slick-carousel.connect-type .slick-dots {
+	bottom: -19px;
+}
+.infl-slick-carousel.connect-type .slick-next,
+.infl-slick-carousel.connect-type .slick-prev {
+	width: 32px;
+	height: 32px;
+}
+.infl-slick-carousel.connect-type .slick-dots li button:before {
+	font-size: 11px;
+}

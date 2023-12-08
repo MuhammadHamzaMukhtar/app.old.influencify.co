@@ -1,0 +1,39 @@
+#monitoring-sort-dropwn {
+	background: #fff;
+	border-color: transparent;
+	box-shadow: 0 3px 3px 0 rgb(187 187 187 / 50%);
+	opacity: 1;
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+.MuiInput-underline:before {
+	display: none;
+}
+#monitoring-sort-dropwn .MuiInput-underline:after,
+#monitoring-sort-dropwn .MuiInput-underline:before {
+	display: none;
+}
+#monitoring-sort-dropwn .MuiFormLabel-root {
+	line-height: 0;
+}
+#monitoring-sort-dropwn .MuiInputLabel-formControl {
+	left: 10px;
+	top: -6px;
+}
+#monitoring-sort-dropwn label + .MuiInput-formControl {
+	margin-top: 0px;
+}
+#monitoring-sort-dropwn .MuiInputBase-input {
+	padding: 6px 0 4px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+#monitoring-sort-dropwn .MuiSelect-select:focus {
+	border-radius: 0;
+	background-color: transparent;
+}
+#monitoring-sort-dropwn .MuiSelect-icon {
+	color: #000 !important;
+}
