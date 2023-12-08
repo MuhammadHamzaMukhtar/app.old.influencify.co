@@ -1,0 +1,140 @@
+:root {
+	--black: #000000;
+	--dark: #282b3c;
+	--lightDark: #343749;
+	--gray: #9ea1b2;
+	--darkGray: #8d8d8d;
+	--lightGray: #f7f7f7;
+	--successs: #1fcfc5;
+	--lightSuccess: #e9faf9;
+	--pink: #fd2965;
+	--purple: #7c3292;
+	--blue: #3b57a4;
+	--lightBlue: #00acee;
+	--red: #ff0000;
+	--yellow: #f4dc5b;
+}
+
+/* color */
+
+.black {
+	color: var(--black);
+}
+
+.dark {
+	color: var(--dark);
+}
+
+.lightDark {
+	color: var(--lightDark);
+}
+
+.gray {
+	color: var(--gray);
+}
+
+.darkGray {
+	color: var(--darkGray);
+}
+
+.lightGray {
+	color: var(--darkGray);
+}
+
+.success {
+	color: var(--successs);
+}
+
+.lightSuccess {
+	color: var(--lightSuccess);
+}
+
+.pink {
+	color: var(--pink);
+}
+
+.purple {
+	color: var(--purple);
+}
+
+.blue {
+	color: var(--blue);
+}
+
+.lightBlue {
+	color: var(--lightBlue);
+}
+
+.red {
+	color: var(--red);
+}
+
+.yellow {
+	color: var(--yellow);
+}
+
+/* background */
+
+.bg--purple {
+	background-color: var(--purple);
+}
+
+.bg--pink {
+	background-color: var(--pink);
+}
+
+.bg--lightGray {
+	background-color: var(--lightGray);
+}
+
+.bg--success {
+	background-color: var(--successs);
+}
+
+.bg--lightSuccess {
+	background-color: var(--lightSuccess);
+}
+
+.bg--black {
+	background-color: var(--black);
+}
+
+.bg--red {
+	background-color: var(--red);
+}
+
+/* border */
+
+.border--purple {
+	border-color: var(--purple);
+}
+
+.border--success {
+	border-color: var(--successs);
+}
+
+/* hover */
+
+.hover\:black:hover {
+	color: var(--black);
+}
+
+.hover\:purple:hover {
+	color: var(--purple);
+}
+
+.hover\:success:hover {
+	color: var(--successs);
+}
+
+.success:hover {
+	color: var(--successs);
+}
+
+.pink:hover {
+	color: var(--pink);
+}
+
+.hover\:bg--purple {
+	background-color: var(--purple);
+}
